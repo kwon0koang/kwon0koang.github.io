@@ -39,6 +39,12 @@ header .site-title {
   line-height: 110%;
   color: var(--white-1);
 }
+header .site-sub-title {
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 110%;
+  color: var(--white-1);
+}
 main {
   margin: 0 auto;
   max-width: 650px;
@@ -54,7 +60,7 @@ main {
 }
 #img-wrapper img {
   border-radius: 50%;
-  max-width: 100px;
+  max-width: 130px;
 }
 #bio-wrapper {
   margin-left: 1rem;
