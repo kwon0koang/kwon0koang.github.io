@@ -3,8 +3,12 @@
   {% include head.html %}
   <body>
     <main>
-      {% include header.html %} {% include bio.html %}
-      <section class="articles">
+      {% include header.html %} 
+      {% include bio.html %}
+
+      <div class="content">{{content}}</div>
+
+      <!-- <section class="articles">
         {% for post in site.posts %}
         <article class="article">
           <h2 class="article-title">
@@ -20,8 +24,12 @@
           </div>
         </article>
         {%endfor%}
-      </section>
+      </section> -->
+
+      <br>
+
       {% include footer.html %}
+      
     </main>
     {% include category-modal.html%}
   </body>

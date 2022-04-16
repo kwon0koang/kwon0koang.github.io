@@ -1,15 +1,9 @@
-title: 권영광 | Android Engineer
 name: 권영광
 job: Android Engineer
 dp: /assets/img/kwon0koang_profile.jpg
 description: "
           <p> 금융 IT 회사에에서 사내 고유 프레임워크를 이용하여 기업은행 개인정보보호시스템, 캐피탈 차세대 시스템을 구축하면서 금융 IT 경험을 쌓을 수 있었습니다. 그래서 해당 파트의 금융 데이터 흐름을 빠르게 이해하는 능력을 갖추었습니다.  </p> <br />
-          <p> 금융 IT 회사에서의 경험과 다양한 프로젝트 경험으로 새로운 도전을 하고 싶었고, 현재는 증권사 안드로이드 엔지니어로써 송금, 즉시출금, 신용대출, 만기관리, 환전, 권리, 공지 등의 주요 기능들을 개발 및 운영하고 있습니다. </p> <br />
-          <!-- <p> 2019.08 ~ 2022.02 한화투자증권 (안드로이드 프로젝트 개발 및 운영)  </p> <br />
-          <p> 2016.02 ~ 2019.07 IBK시스템 (SI 웹 프로젝트 개발 및 운영) </p> <br />
-          <p> 2014.06 ~ 2015.12 삼성소프트웨어멤버십 회원 (다양한 프로젝트 협업)) </p> <br />
-          <p> 2014.01 ~ 2014.03 인도 Brainware 인턴 </p> <br /> -->
-          <!-- <p> Follow <a href='https://github.com/kwon0koang' target='_blank'>Github</a> </P> -->
+          <p> 금융 IT 회사에서의 경험과 다양한 프로젝트 경험으로 새로운 도전을 하고 싶었고, 현재는 증권사 안드로이드 엔지니어로써 송금, 즉시출금, 신용대출, 만기관리, 환전 등의 주요 기능들을 개발 및 운영하고 있습니다. </p> <br />
 "
 email: kwon0koang@gmail.com
 contact:
@@ -23,3 +17,47 @@ contact:
   #   url: https://dev.to/sharadcodes
   - title: email
     url: mailto:kwon0koang@gmail.com
+experience:
+  - title: Brainware
+  - title: IBK시스템
+  - title: 한화투자증권
+skills:
+  - title: android
+  - title: java
+  - title: kotlin
+  - title: html
+  - title: rxjava
+  - title: retrofit
+  - title: coroutine
+  - title: oracle
+  - title: tibero
+  - title: realm
+  - title: room
+  - title: sql
+      
+# kwon0konag:
+#   title: 권영광 | Android Engineer
+#   name: 권영광
+#   job: Android Engineer
+#   dp: /assets/img/kwon0koang_profile.jpg
+#   description: "
+#             <p> 금융 IT 회사에에서 사내 고유 프레임워크를 이용하여 기업은행 개인정보보호시스템, 캐피탈 차세대 시스템을 구축하면서 금융 IT 경험을 쌓을 수 있었습니다. 그래서 해당 파트의 금융 데이터 흐름을 빠르게 이해하는 능력을 갖추었습니다.  </p> <br />
+#             <p> 금융 IT 회사에서의 경험과 다양한 프로젝트 경험으로 새로운 도전을 하고 싶었고, 현재는 증권사 안드로이드 엔지니어로써 송금, 즉시출금, 신용대출, 만기관리, 환전, 권리, 공지 등의 주요 기능들을 개발 및 운영하고 있습니다. </p> <br />
+#             <!-- <p> 2019.08 ~ 2022.02 한화투자증권 (안드로이드 프로젝트 개발 및 운영)  </p> <br />
+#             <p> 2016.02 ~ 2019.07 IBK시스템 (SI 웹 프로젝트 개발 및 운영) </p> <br />
+#             <p> 2014.06 ~ 2015.12 삼성소프트웨어멤버십 회원 (다양한 프로젝트 협업)) </p> <br />
+#             <p> 2014.01 ~ 2014.03 인도 Brainware 인턴 </p> <br /> -->
+#             <!-- <p> Follow <a href='https://github.com/kwon0koang' target='_blank'>Github</a> </P> -->
+#   "
+#   email: kwon0koang@gmail.com
+#   contact:
+#     - title: linkedin
+#       url: https://www.linkedin.com/in/kwon0koang
+#     - title: github
+#       url: https://github.com/kwon0koang
+#     # - title: twitter
+#     #   url: https://twitter.com/sharadcodes
+#     # - title: dev
+#     #   url: https://dev.to/sharadcodes
+#     - title: email
+#       url: mailto:kwon0koang@gmail.com
