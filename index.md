@@ -67,7 +67,7 @@ layout: blog
 > android /
 > java /
 > kotlin /
-> coroutine, /
+> coroutine /
 > junit /
 > html /
 > rxjava /
