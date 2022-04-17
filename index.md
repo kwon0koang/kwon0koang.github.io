@@ -93,7 +93,7 @@ JAVA / HTML5 / PHP
 > kotlin /
 > coroutine /
 > junit /
-> html /
+> html5 /
 > rxjava /
 > retrofit /
 > oracle /
@@ -101,9 +101,11 @@ JAVA / HTML5 / PHP
 > realm /
 > room /
 > sql /
-<!-- jenkins /  -->
-beacon /
-git
+> scichart /
+> i-framework /
+<!-- > jenkins /  -->
+> beacon /
+> git
 
 ---
 
@@ -117,7 +119,7 @@ git
 
 ### `Patents`
 
-> 10-2015-0167557 `승객 관리 시스템 및 방법` (BeaconBus)  
+> `승객 관리 시스템 및 방법` (BeaconBus) (10-2015-0167557)  
 > 2015.11.27
 
 ---
