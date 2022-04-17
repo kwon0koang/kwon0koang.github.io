@@ -17,23 +17,24 @@ contact:
   #   url: https://dev.to/sharadcodes
   - title: email
     url: mailto:kwon0koang@gmail.com
-experience:
-  - title: Brainware
-  - title: IBK시스템
-  - title: 한화투자증권
-skills:
-  - title: android
-  - title: java
-  - title: kotlin
-  - title: html
-  - title: rxjava
-  - title: retrofit
-  - title: coroutine
-  - title: oracle
-  - title: tibero
-  - title: realm
-  - title: room
-  - title: sql
+    
+# experience:
+#   - title: Brainware
+#   - title: IBK시스템
+#   - title: 한화투자증권
+# skills:
+#   - title: android
+#   - title: java
+#   - title: kotlin
+#   - title: html
+#   - title: rxjava
+#   - title: retrofit
+#   - title: coroutine
+#   - title: oracle
+#   - title: tibero
+#   - title: realm
+#   - title: room
+#   - title: sql
       
 # kwon0konag:
 #   title: 권영광 | Android Engineer
