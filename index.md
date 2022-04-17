@@ -102,7 +102,6 @@ JAVA / HTML5 / PHP
 > room /
 > sql /
 > scichart /
-> i-framework /
 <!-- > jenkins /  -->
 > beacon /
 > git
