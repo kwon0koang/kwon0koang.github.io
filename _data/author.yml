@@ -19,6 +19,8 @@ contact:
   #   url: https://dev.to/sharadcodes
   - title: email
     url: mailto:kwon0koang@gmail.com
+  - title: phone
+    url: tel:+01094198708
 
 # experience:
 #   - title: Brainware

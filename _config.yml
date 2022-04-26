@@ -7,9 +7,11 @@ baseurl: ""
 
 # for atom feed
 author:
+  title: 도전하는 개발자
   name: 권영광
   bio: Android Engineer
   email: kwon0koang@gmail.com
+  phone: 010-9419-8708
 
 plugins:
   - jemoji
@@ -27,11 +29,18 @@ plugins:
 # 한 가지 기억해야할 것은, 컬렉션을 보관하는 디렉토리 이름은 밑줄(`_`)로 시작할 수 없다는 것입니다.
 collections_dir: all_collections
 collections:
+  post_main:
+    output: true
   posts:
     output: true
 
 # permalink : 생성된 블로그 포스트 URL 을 사이트 전역 스타일(기본설정: /year/month/day/title.html)이 아닌 다른 스타일로 만드려면, 이 변수를 사용하여 최종 URL 을 설정하면 된다.
 defaults:
+  - scope:
+      path: "_post_main"
+    values:
+      layout: "post_main"
+      permalink: /post_main/:title/
   - scope:
       path: "_posts"
     values:
@@ -39,9 +48,7 @@ defaults:
       permalink: /posts/:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
 
-
-
-
+category_list: [ nodejs, javascript, tip, diary, linux, chatbot, php ,publishing, jekyll, sql, error, refactoring, issue, testcategory ]
 
 
 

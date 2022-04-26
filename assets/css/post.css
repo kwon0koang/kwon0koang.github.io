@@ -37,16 +37,22 @@ body {
 header {
   padding: 2rem 0 4rem 0;
 }
-.site-title {
-  font-size: 1.4rem;
+header .site-title {
+  font-size: 4rem;
   font-weight: bolder;
+  line-height: 110%;
+  color: var(--white-1);
+}
+header .site-sub-title {
+  font-size: 2rem;
+  font-weight: lighter;
   line-height: 110%;
   color: var(--white-1);
 }
 main {
   margin: 0 auto;
   max-width: 800px;
-  padding: 3rem 0 4rem 0;
+  padding: 3rem 0;
 }
 .article {
   margin-bottom: 3rem;
