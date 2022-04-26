@@ -91,12 +91,12 @@ main {
 
 .articles {
   display: grid;
-  row-gap: 2rem;
-  margin: 4rem 0 3rem 0;
+  row-gap: 1rem;
+  margin: 0.1rem 0 3rem 0;
 }
 .articles .article {
-  padding: 2rem;
-  background: var(--gray-3);
+  padding: 1rem;
+  background: var(--gray-2);
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
 }
@@ -104,8 +104,8 @@ main {
 .articles .article .article-title a {
   color: var(--white-2);
   font-weight: 100;
-  font-style: italic;
-  font-size: 1.4rem;
+  /* font-style: italic; */
+  font-size: 1.3rem;
   line-height: 130%;
 }
 .articles .article:hover {
