@@ -13,12 +13,11 @@
           <h2 class="article-title">
             <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
           </h2>
-          <small class="date">{{post.date | date_to_string}}</small>
+          <!-- <small class="date">{{post.date | date_to_string}}</small> -->
+          <small class="date">{{post.date | date: "%Y.%m.%d"}}</small>
           <div class="categories">
             {% for c in post.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="category"
-              >{{c}}</a
-            >
+            <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
             {% endfor %}
           </div>
         </article>

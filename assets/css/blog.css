@@ -42,6 +42,7 @@ header .site-title {
 header .site-sub-title {
   font-size: 2rem;
   font-weight: lighter;
+  margin-left: 0.4rem;
   line-height: 110%;
   color: var(--white-1);
 }
@@ -102,7 +103,7 @@ main {
 }
 .articles .article .article-title,
 .articles .article .article-title a {
-  color: var(--white-2);
+  color: var(--white-1);
   font-weight: 100;
   /* font-style: italic; */
   font-size: 1.1rem;
@@ -113,6 +114,7 @@ main {
 }
 .articles .article .date {
   display: block;
+  color: var(--white-2);
   font-size: 0.8rem;
 }
 .articles .article .categories {
@@ -235,7 +237,7 @@ main {
   margin: 1.75rem 0;
 }
 .content blockquote {
-  padding-left: 1.42188rem;
+  padding-left: 1rem;
   margin-bottom: 1.75rem;
   /* font-style: italic; */
   font-weight: 100;
