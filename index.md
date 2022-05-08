@@ -24,7 +24,7 @@ layout: blog
 
 > 1. **STEPS** (간편주식투자 앱)
 >    - 매매, 송금, 즉시출금, 신용대출, 천원샵, 투자아이디어 컨텐츠 제공 등 간편 주식 투자 애플리케이션.
->      - Role : STEPS 3.0 운영하다 STEPS 4.0 전면 개편 후 송금, 즉시출금, 신용대출, 만기관리, 환전, 권리, 달러RP 등 메인 담당. 기타 업무 운영.
+>      - Role : STEPS 3.0 약 1년 6개월 안드로이드 파트 혼자 운영, 추후 STEPS 4.0 전면 개편 후 송금, 즉시출금, 신용대출, 만기관리, 환전, 권리, 달러RP 등 메인 담당. 기타 업무 운영.
 >      - 2020.01 ~
 > 2. **CAKE** (외국인종합금융 앱)
 >    - 해외송금, 보험, 대출 등 외국인 종합 금융 애플리케이션.
@@ -45,12 +45,12 @@ layout: blog
 > 6. **삼성소프트웨어멤버십 과제 및 토이 프로젝트**
 >    - BeaconBus / LoopLoop / SwitchingDroid / 소리를품은사진 / RealMarble / LookCafe
 
-<!-- 
+<!--
 2015.05.03-2015.08.28
 BEACON BUS
 Beacon을 버스에 탑재하여 탑승자 및 좌석 수 확인, 도착지 전에 알림 그리고 벨 자동 울림 기능 등을 구현하여 버스 승하차 시스템을 개선시킨 프로젝트.
 기존 버스 애플리케이션 기능 구현 / 구글맵을 이용하여 사용자 주변 정류장 검색 구현 / Beacon 신호 스캐닝 구현 / 도착지 전 TTS 자동 알림 구현 / 버스 현재 탑승 인원 수 보기 구현.
-JAVA / WEB PARSING / TTS(Text To Speach) / BEACON SCANNING 
+JAVA / WEB PARSING / TTS(Text To Speach) / BEACON SCANNING
 
 2015.04.03-2015.05.30
 LoopLoop
@@ -102,7 +102,9 @@ JAVA / HTML5 / PHP
 > room /
 > sql /
 > scichart /
+
 <!-- > jenkins /  -->
+
 > beacon /
 > git
 
@@ -140,8 +142,6 @@ JAVA / HTML5 / PHP
 레거시 개선, 코드 리팩토링 경험 (구조를 변경했거나, 디자인 패턴을 사용)
     20220207 UserHelper 리팩토링
     20220210 메인 보유종목 실시간 처리 리팩토링
-장애 대응 경험?
-    20220412 QUERY_ALL_PACKAGES 권한 관련 구글플레이 이슈 대응
 덧셈 업무가 아닌 곱셈 업무는? (예를 들어 DtoGenerator)
 이슈 처리 경험
 공부한 것을 어떻게 실무에 녹아내었는지
@@ -159,12 +159,3 @@ JAVA / HTML5 / PHP
 SciChart
 20220405 신입사원 멘토링
 -->
-
-
-
-
-
-
-
-
-
