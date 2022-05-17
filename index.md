@@ -102,11 +102,9 @@ JAVA / HTML5 / PHP
 > room /
 > sql /
 > scichart /
-
-<!-- > jenkins /  -->
-
 > beacon /
 > git
+<!-- > jenkins /  -->
 
 ---
 
