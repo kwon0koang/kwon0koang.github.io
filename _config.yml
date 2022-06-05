@@ -1,13 +1,13 @@
 # https://jekyllrb-ko.github.io/docs 가이드 참고
 
-title: 권영광 | Android Engineer
+title: 안녕하세요.
+subtitle: 권영광입니다.
 markdown: kramdown
 url: ""
 baseurl: ""
 
 # for atom feed
 author:
-  title: 도전하는 개발자
   name: 권영광
   bio: Android Engineer
   email: kwon0koang@gmail.com
@@ -19,7 +19,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# 컬렉션을 시퀀스로 정의할 때, 포함된 페이지들이 자동으로 렌더링되지 않습니다. 
+# 컬렉션을 시퀀스로 정의할 때, 포함된 페이지들이 자동으로 렌더링되지 않습니다.
 # 이를 활성화하려면, 컬렉션에 output: true 가 지정되어 있어야 하는데, 이는 컬렉션을 매핑으로 정의하는 것과 같습니다. 더 자세한 내용은, 출력 섹션을 참고하세요.
 # 컬렉션을 한 곳에 모으세요3.7.0
 # 선택사항으로서, 당신의 모든 컬렉션을 한 곳에 보관하기 위해 collections_dir: my_collections 로 디렉토리를 지정할 수 있습니다.
@@ -48,10 +48,23 @@ defaults:
       permalink: /posts/:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
 
-category_list: [ nodejs, javascript, tip, diary, linux, chatbot, php ,publishing, jekyll, sql, error, refactoring, issue, testcategory ]
-
-
-
+category_list:
+  [
+    nodejs,
+    javascript,
+    tip,
+    diary,
+    linux,
+    chatbot,
+    php,
+    publishing,
+    jekyll,
+    sql,
+    error,
+    refactoring,
+    issue,
+    testcategory,
+  ]
 # # Jekyll configuration
 # markdown: kramdown
 # # kramdown : markdown의 개조판.
@@ -143,7 +156,6 @@ category_list: [ nodejs, javascript, tip, diary, linux, chatbot, php ,publishing
 # # disqus를 이용할 것인지 여부와 만약 사용하면
 # # disqus shortname을 입력 ( disqus username이 아님 )
 
-
 # # Google Analytics
 # google_analytics: UA-xxxxxxxx-x # replace with your GA tracking identifier
 # # Google Analytics을 사용할 경우 GA tracking identifier를 입력
@@ -182,7 +194,6 @@ category_list: [ nodejs, javascript, tip, diary, linux, chatbot, php ,publishing
 # # 이 폴더안의 내용을 github repository(https://username.github.io)에 push
 # # 만약 Travis-CI를 이용할 예정이면 이 부분을 git submodule로
 # # github repository(https://username.github.io)에 연결해야 한다.
-
 
 # # exclude는 Jekyll컴파일 시 destination에 포함될 필요가
 # # 없는것들을 명시한다. (node_modules와 필요없는 것들은 제외)

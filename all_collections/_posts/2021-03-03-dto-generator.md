@@ -3,6 +3,7 @@ layout: post
 title: Dto generator (Dto 및 전문 통신 로직 생성기)
 date: 2021-03-03 01:01:01
 categories: [업무효율향상, 테스트코드]
+project: STEPS
 ---
 
 STEPS 3.0에서 4.0으로 크게 개편을 하면서 즉시출금, 신용대출, 만기관리, 반대매매, 미수미납 등 신규 기능들이 많이 추가되었다.  

@@ -3,6 +3,7 @@ layout: post
 title: 전문 속도 개선
 date: 2021-11-30 01:01:01
 categories: [리팩토링, 성능개선]
+project: STEPS
 ---
 
 느린 화면들의 전문 로그를 수집하고, 분석했다.  

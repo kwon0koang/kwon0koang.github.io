@@ -44,10 +44,9 @@ header .site-title {
   color: var(--white-1);
 }
 header .site-sub-title {
-  font-size: 1.2rem;
-  font-weight: lighter;
+  font-size: 3rem;
+  font-weight: bolder;
   line-height: 110%;
-  margin-left: 0.4rem;
   color: var(--white-1);
 }
 main {

@@ -40,9 +40,8 @@ header .site-title {
   color: var(--white-1);
 }
 header .site-sub-title {
-  font-size: 2rem;
-  font-weight: lighter;
-  margin-left: 0.4rem;
+  font-size: 4rem;
+  font-weight: bolder;
   line-height: 110%;
   color: var(--white-1);
 }
