@@ -1,17 +1,19 @@
+
 :root {
-  --gray-1: #3f3f3f;
-  --gray-2: #32353a;
-  --gray-3: #25282c;
-  --gray-4: #151618;
-  --gray-5: #151618;
-  --gray-6: #111111;
-  --white-1: #eeeeee;
-  --white-2: #a9abb3;
+  --gray-1: #555555;
+  --gray-2: #666666;
+  --gray-3: #777777;
+  --gray-4: #c9c9c9;
+  --gray-5: #e1e1e1;
+  --gray-6: #ffffff;
+  --white-1: #000000;
+  --white-2: #222222;
 }
+
 #category-modal-bg {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
   z-index: 10;
   display: none;
   visibility: hidden;
@@ -25,7 +27,7 @@
   border-radius: 1rem;
   padding: 1rem;
   margin: auto;
-  background: var(--gray-3);
+  background: var(--gray-5);
   display: none;
   visibility: hidden;
   line-height: 140%;
@@ -48,7 +50,7 @@
 .modal-article,
 .modal-article-date {
   display: block;
-  color: var(--white-2);
+  color: var(--white-1);
 }
 .modal-article {
   margin-bottom: 0.5rem;
@@ -59,11 +61,11 @@
   font-size: 0.8rem;
 }
 .modal-article:hover {
-  background: var(--gray-4);
+  background: var(--gray-6);
 }
 
 hr {
-	border-top: 2px dashed var(--white-2)!important;
+	border-top: 2px dashed var(--white-1)!important;
 	border-bottom: none!important;
 	border-left: none!important;
 	border-right: none!important;

@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
 
-:root {
-  --gray-1: #3f3f3f;
-  --gray-2: #32353a;
-  --gray-3: #25282c;
-  --gray-4: #151618;
-  --gray-5: #151618;
-  --gray-6: #111111;
-  --white-1: #eeeeee;
-  --white-2: #a9abb3;
-}
 * {
   font-family: inherit;
   text-decoration: none;
@@ -24,11 +14,10 @@
 }
 html,
 body {
-  color: var(--white-2);
-  background-color: var(--gray-6);
+  color: var(--white-1);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: var(--gray-5);
+  background-color: var(--gray-6);
 }
 header {
   padding: 2rem 0 4rem 0;
@@ -40,8 +29,9 @@ header .site-title {
   color: var(--white-1);
 }
 header .site-sub-title {
-  font-size: 4rem;
-  font-weight: bolder;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-left: 0.4rem;
   line-height: 110%;
   color: var(--white-1);
 }
@@ -77,7 +67,7 @@ main {
   margin-top: 1rem;
 }
 #social-wrapper img {
-  filter: invert() !important;
+  /* filter: invert() !important; */
   width: 25px;
   height: 25px;
   margin: 0 0 0.3rem 0;
@@ -96,7 +86,7 @@ main {
 }
 .articles .article {
   padding: 1rem;
-  background: var(--gray-2);
+  background: var(--gray-4);
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
 }
@@ -113,7 +103,7 @@ main {
 }
 .articles .article .date {
   display: block;
-  color: var(--white-2);
+  color: var(--white-1);
   font-size: 0.8rem;
 }
 .articles .article .categories {
@@ -125,8 +115,8 @@ main {
 .articles .article .categories .category {
   margin: 0 0.5rem 0.3rem 0;
   display: block;
-  color: var(--gray-4);
-  background: var(--white-2);
+  color: var(--gray-6);
+  background: var(--white-1);
   border-radius: 15px;
   font-size: 0.7rem;
   padding: 0 0.8rem;
@@ -240,7 +230,7 @@ main {
   margin-bottom: 1.75rem;
   /* font-style: italic; */
   font-weight: 100;
-  border-left: 0.3rem solid var(--white-2);
+  border-left: 0.3rem solid var(--white-1);
 }
 .content strong {
   font-weight: bold;
@@ -265,12 +255,12 @@ main {
   border-collapse: collapse;
 }
 .content table th {
-  background-color: var(--gray-3);
-  color: var(--white-2);
+  background-color: var(--gray-5);
+  color: var(--white-1);
   border: 1px solid var(--gray-5);
 }
 .content table * {
-  border: 1px solid var(--gray-3);
+  border: 1px solid var(--gray-5);
   padding: 0.2rem;
 }
 .content img {
@@ -288,16 +278,16 @@ main {
 }
 
 .content pre {
-  background: var(--gray-3) !important;
+  background: var(--gray-5) !important;
   padding: 1rem 2rem;
   margin-bottom: 1.75rem;
 }
 
 .content code {
   padding: 3px 5px;
-  color: var(--white-2);
+  color: var(--white-1);
   white-space: pre;
-  background-color: var(--gray-3);
+  background-color: var(--gray-5);
 }
 
 /* lbox */

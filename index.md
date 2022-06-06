@@ -3,6 +3,10 @@ title: Blog
 layout: blog
 ---
 
+
+<br/>
+<br/>
+
 # `Experiences`
 
 <!-- > - **`한화투자증권`**  
@@ -185,7 +189,8 @@ LookCafe
 JAVA / HTML5 / PHP
 -->
 
----
+<br/>
+<br/>
 
 # `Skills`
 
@@ -195,7 +200,8 @@ JAVA / HTML5 / PHP
 > - oracle / tibero / mysql
 > - wiki / jira / git / jenkins
 
----
+<br/>
+<br/>
 
 # `Awards`
 
@@ -203,14 +209,16 @@ JAVA / HTML5 / PHP
 > `한국정보화진흥원장상`  
 > (_2015.10_)
 
----
+<br/>
+<br/>
 
 # `Patents`
 
 > `승객 관리 시스템 및 방법` (BeaconBus) (10-2015-0167557)  
 > (_2015.11.27_)
 
----
+<br/>
+<br/>
 
 # `Seminars`
 
@@ -218,7 +226,8 @@ JAVA / HTML5 / PHP
 > 삼성소프트웨어멤버십 기술 세미나  
 > (_2015.03_)
 
----
+<br/>
+<br/>
 
 # `Posts`
 
