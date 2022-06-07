@@ -9,7 +9,7 @@ baseurl: ""
 # for atom feed
 author:
   name: 권영광
-  bio: Android Engineer
+  bio: Android Developer
   email: kwon0koang@gmail.com
   phone: 010-9419-8708
 
@@ -74,7 +74,7 @@ category_list:
 # owner:
 #   name:           YoungKwang Kwon
 #   avatar:         kwon0koang_profile.jpg
-#   bio:            "Android Engineer"
+#   bio:            "Android Developer"
 #   email:          kwon0koang@gmail.com
 #   # Social networking links used in footer. Update and remove as you like.
 #   twitter:
@@ -113,7 +113,7 @@ category_list:
 # baseurl: /
 
 # # Website info
-# title: 권영광 | Android Engineer
+# title: 권영광 | Android Developer
 # # 자신의 blog title.
 
 # description: 테스트 블로그 홈 표시 설명

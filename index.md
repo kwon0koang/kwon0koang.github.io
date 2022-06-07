@@ -10,10 +10,10 @@ layout: blog
 # `Experiences`
 
 <!-- > - **`한화투자증권`**  
->   Android Engineer  
+>   Android Developer  
 >   (2019.08 ~)
 > - **`IBK시스템`**  
->   FrontEnd, BackEnd Engineer  
+>   FrontEnd, BackEnd Developer  
 >   (2016.02 ~ 2019.07)
 > - **`삼성소프트웨어멤버십`**  
 >   Member  
@@ -22,7 +22,7 @@ layout: blog
 >   Intern  
 >   (2014.01 ~ 2014.03) -->
 > #### `한화투자증권`
-> Android Engineer  
+> Android Developer  
 > (2019.08 ~)  
 >    >
 > 1. **`STEPS`** (간편주식투자 앱)  
@@ -39,7 +39,7 @@ layout: blog
 >      Mock-up 앱 전체 화면 개발.  
 >
 > #### `IBK시스템`
-> FrontEnd, BackEnd Engineer  
+> FrontEnd, BackEnd Developer  
 > (2016.02 ~ 2019.07)
 >    >
 > 1. **`한국캐피탈 차세대 시스템`**  

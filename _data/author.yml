@@ -1,5 +1,5 @@
 name: 권영광
-job: Android Engineer
+job: Android Developer
 dp: /assets/img/kwon0koang_profile.jpg
 description: "
           <p> 은행 개인정보보호 시스템, 캐피탈 차세대 시스템을 구축하면서 금융 IT 경험을 쌓을 수 있었습니다. 그래서 해당 파트의 금융 데이터 흐름을 빠르게 이해하는 능력을 갖추었습니다. </p> 
@@ -41,9 +41,9 @@ contact:
 #   - title: sql
       
 # kwon0konag:
-#   title: 권영광 | Android Engineer
+#   title: 권영광 | Android Developer
 #   name: 권영광
-#   job: Android Engineer
+#   job: Android Developer
 #   dp: /assets/img/kwon0koang_profile.jpg
 #   description: "
 #             <p> 금융 IT 회사에에서 사내 고유 프레임워크를 이용하여 기업은행 개인정보보호시스템, 캐피탈 차세대 시스템을 구축하면서 금융 IT 경험을 쌓을 수 있었습니다. 그래서 해당 파트의 금융 데이터 흐름을 빠르게 이해하는 능력을 갖추었습니다.  </p> <br />
