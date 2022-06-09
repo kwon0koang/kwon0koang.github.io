@@ -7,6 +7,12 @@
   --white-1: #ffffff;
   --black-1: #000000;
   --black-2: #222222;
+  --blue-1: #0000ff;
+  --blue-2: #3333ff;
+}
+
+* {
+  font-family: "Nanum Gothic" !important;
 }
 
 #category-modal-bg {
@@ -77,4 +83,8 @@ hr {
   border-left: none !important;
   border-right: none !important;
   margin-bottom: 1.75rem !important;
+}
+
+b.dot {
+  color: var(--blue-1);
 }

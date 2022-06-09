@@ -7,7 +7,7 @@ layout: blog
 <br/>
 <br/>
 
-# `Experiences`
+# `Experiences`<b class='dot'>.</b>
 
 <!-- > - **`한화투자증권`**  
 >   Android Developer  
@@ -21,7 +21,7 @@ layout: blog
 > - **`Brainware`**  
 >   Intern  
 >   (2014.01 ~ 2014.03) -->
-> #### `한화투자증권`
+> #### `한화투자증권`<b class='dot'>.</b>
 > Android Developer  
 > (2019.08 ~)  
 >    >
@@ -38,7 +38,7 @@ layout: blog
 >    - **Role**  
 >      Mock-up 앱 전체 화면 개발.  
 >
-> #### `IBK시스템`
+> #### `IBK시스템`<b class='dot'>.</b>
 > FrontEnd, BackEnd Developer  
 > (2016.02 ~ 2019.07)
 >    >
@@ -61,7 +61,7 @@ layout: blog
 >    - **Role**  
 >      직원 개인정보 조회 모니터링 데이터 가공 및 적재 배치 프로그램 구현. 기타 화면 개발.
 >
-> #### `삼성소프트웨어멤버십`  
+> #### `삼성소프트웨어멤버십`<b class='dot'>.</b>
 > Member  
 > (2014.06 ~ 2015.12)
 >    >
@@ -96,7 +96,7 @@ layout: blog
 >    - **Role**  
 >      카페 DB 구축. 블로그 글 검색. 주변 카페 검색. 보유 카드 할인 정보 제공.
 >
-> #### `Brainware`  
+> #### `Brainware`<b class='dot'>.</b>
 > Intern  
 > (2014.01 ~ 2014.03)
 >
@@ -192,7 +192,7 @@ JAVA / HTML5 / PHP
 <br/>
 <br/>
 
-# `Skills`
+# `Skills`<b class='dot'>.</b>
 
 > _현재 업무에 사용중 혹은 사용했던 기술 스택 및 협업 도구_
 > - android / java / kotlin / javascript
@@ -203,7 +203,7 @@ JAVA / HTML5 / PHP
 <br/>
 <br/>
 
-# `Awards`
+# `Awards`<b class='dot'>.</b>
 
 > 글로벌 이노베이터 페스타 2015 (GIF 2015) IoT분야  
 > `한국정보화진흥원장상`  
@@ -212,7 +212,7 @@ JAVA / HTML5 / PHP
 <br/>
 <br/>
 
-# `Patents`
+# `Patents`<b class='dot'>.</b>
 
 > `승객 관리 시스템 및 방법` (BeaconBus) (10-2015-0167557)  
 > (_2015.11.27_)
@@ -220,7 +220,7 @@ JAVA / HTML5 / PHP
 <br/>
 <br/>
 
-# `Seminars`
+# `Seminars`<b class='dot'>.</b>
 
 > 안드로이드 Input Device Driver 분석을 통한 강제 터치 이벤트  
 > 삼성소프트웨어멤버십 기술 세미나  
@@ -229,7 +229,7 @@ JAVA / HTML5 / PHP
 <br/>
 <br/>
 
-# `Posts`
+# `Posts`<b class='dot'>.</b>
 
 <!-- todo kyk
 이력서 제목을 정하자
