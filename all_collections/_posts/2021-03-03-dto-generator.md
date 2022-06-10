@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dto generator (Dto 및 전문 통신 로직 생성기)
+title: dto generator (Dto 및 전문 통신 로직 생성기)
 date: 2021-03-03 01:01:01
 categories: [업무효율향상, 테스트코드]
 project: STEPS
