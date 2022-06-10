@@ -7,8 +7,10 @@
   --white-1: #ffffff;
   --black-1: #000000;
   --black-2: #222222;
-  --blue-1: #0000ff;
+  --blue-1: #0000dd;
   --blue-2: #3333ff;
+  --blue-3: #6666ff;
+  --blue-4: #9999ff;
 }
 
 * {
@@ -85,6 +87,6 @@ hr {
   margin-bottom: 1.75rem !important;
 }
 
-b.dot {
+b.blue {
   color: var(--blue-1);
 }

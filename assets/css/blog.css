@@ -267,7 +267,7 @@ main {
   margin-bottom: 1.75rem;
   /* font-style: italic; */
   font-weight: 100;
-  border-left: 0.3rem solid var(--black-1);
+  border-left: 0.3rem solid var(--blue-1);
 }
 
 .content strong {

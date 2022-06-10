@@ -1,7 +1,7 @@
 # https://jekyllrb-ko.github.io/docs 가이드 참고
 
-title: 안녕하세요<b class='dot'>.</b>
-subtitle: 권영광입니다<b class='dot'>.</b>
+title: 안녕하세요<b class='blue'>.</b>
+subtitle: 권영광입니다<b class='blue'>.</b>
 markdown: kramdown
 url: ""
 baseurl: ""
