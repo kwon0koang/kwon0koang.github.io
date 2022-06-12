@@ -196,7 +196,6 @@ JAVA / HTML5 / PHP
 
 > _현재 업무에 사용중 혹은 사용했던 기술 스택 및 협업 도구_
 > - android / java / kotlin / javascript
-> - mvvm
 > - coroutine / flow / rxjava / paging3 / firebase / glide / eventbus / retrofit / junit / realm / room / scichart
 > - oracle / tibero / mysql
 > - wiki / jira / git / jenkins
