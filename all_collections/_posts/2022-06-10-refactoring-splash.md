@@ -1,6 +1,6 @@
 ---
 layout: post
-title: intro splash 속도 개선 (8초에서 2초로..)
+title: intro splash 속도 개선 (8s→2s)
 date: 2022-06-10 01:01:01
 categories: [리팩토링, 성능개선]
 project: STEPS
