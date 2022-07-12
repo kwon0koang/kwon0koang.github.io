@@ -69,32 +69,22 @@ layout: blog
 >    (_2015.05 ~ 2015.09_)
 >    - **Description**  
 >      버스 탑승자 및 좌석 수 확인, 정류장 내 버스 탑승 예정자 확인, 도착 전 알림 그리고 벨 자동 울림 기능 등을 구현한 버스 승하차 시스템 개선 프로젝트.
->    - **Role**  
->      기존 버스 앱 기능 구현. 주변 정류장 검색. 비콘 스캐닝. TTS 알림. 버스 탑승 인원 수 보기.
 > 2. **`LoopLoop`**  
 >    (_2015.04 ~ 2015.06_)
 >    - **Description**  
 >      ‘루프스테이션’과 같은 기능을 여러 유저들과 함께 즐기기 위한 앱.
->    - **Role**  
->      OpenSL ES 소리 녹음. PCM 데이터 파형 표현. 각 오디오 라인별 세부 효과 설정.
 > 3. **`SwitchingDroid`**  
 >    (_2014.11 ~ 2015.03_)
 >    - **Description**  
 >      하나의 기기로 두 대 이상의 기기를 조작하기 위한 앱.
->    - **Role**  
->      터치 데이터 전송 및 adb shell 강제 터치 이벤트. 화면 스위칭.
 > 4. **`RealMarble`**  
 >    (_2014.07 ~ 2014.09_)
 >    - **Description**  
 >      보드에 사용자 말이 자동으로 움직이고, 건물을 사면 LED가 들어오도록 한 재미있는 오프라인 부루마블 프로젝트.
->    - **Role**  
->      게임 앱. SocketIO.
 > 5. **`LookCafe`**  
 >    (_2014.03 ~ 2014.05_)
 >    - **Description**  
 >      카페 기본 정보 및 보유 카드에 따른 할인 정보를 제공하는 하이브리드 앱.
->    - **Role**  
->      카페 DB 구축. 블로그 글 검색. 주변 카페 검색. 보유 카드 할인 정보 제공.
 >
 > #### `Brainware`<b class='blue'>.</b>
 > Intern  
@@ -129,15 +119,15 @@ layout: blog
 >    - `BeaconBus`  
 >      (_2015.05 ~ 2015.09_)
 >      - 버스 탑승자 및 좌석 수 확인, 정류장 내 버스 탑승 예정자 확인, 도착 전 알림 그리고 벨 자동 울림 기능 등을 구현한 버스 승하차 시스템 개선 프로젝트.
->        - Role : 기존 버스 앱 기능 구현 / 주변 정류장 검색 / 비콘 스캐닝 / TTS 알림 / 버스 탑승 인원 수 보기
+>        - Role : 기존 버스 앱 기능 구현. 주변 정류장 검색. 비콘 스캐닝. TTS 알림. 버스 탑승 인원 수 보기.
 >    - `LoopLoop`  
 >      (_2015.04 ~ 2015.06_)
 >      - ‘루프스테이션’과 같은 기능을 여러 유저들과 함께 즐기기 위한 앱.
->        - Role : OpenSL ES 소리 녹음 / PCM 데이터 파형 표현 / 각 오디오 라인별 세부 효과 설정
+>        - Role : OpenSL ES 소리 녹음. PCM 데이터 파형 표현. 각 오디오 라인별 세부 효과 설정.
 >    - `SwitchingDroid`  
 >      (_2014.11 ~ 2015.03_)
 >      - 하나의 기기로 두 대 이상의 기기를 조작하기 위한 앱.
->        - Role : 터치 데이터 전송 및 adb shell 강제 터치 이벤트 / 화면 스위칭 버튼
+>        - Role : 터치 데이터 전송 및 adb shell 강제 터치 이벤트. 화면 스위칭.
 >    - `소리를품은사진`  
 >      (_2014.11 ~ 2014.12_)
 >      - 사진 촬영 당시의 소리를 함께 저장하는 앱.
@@ -145,11 +135,11 @@ layout: blog
 >    - `RealMarble`  
 >      (_2014.07 ~ 2014.09_)
 >      - 보드에 사용자 말이 자동으로 움직이고, 건물을 사면 LED가 들어오도록 한 재미있는 오프라인 부루마블 프로젝트.
->        - Role : 게임 앱 / SocketIO
+>        - Role : 게임 앱. SocketIO.
 >    - `LookCafe`  
 >      (_2014.03 ~ 2014.05_)
 >      - 카페 기본 정보 및 보유 카드에 따른 할인 정보를 제공하는 하이브리드 앱.
->        - Role : 카페 DB 구축 / 블로그 글 검색 / 주변 카페 검색 / 보유 카드 할인 정보 제공 -->
+>        - Role : 카페 DB 구축. 블로그 글 검색. 주변 카페 검색. 보유 카드 할인 정보 제공. -->
 
 <!--
 2015.05.03-2015.08.28
@@ -196,9 +186,10 @@ JAVA / HTML5 / PHP
 
 > _현재 업무에 사용중 혹은 사용했던 기술 스택 및 협업 도구_
 > - android / java / kotlin / javascript
-> - coroutine / flow / rxjava / paging3 / firebase / glide / eventbus / retrofit / junit / realm / room / scichart
+> - coroutine / flow / rxjava / paging3 / firebase / glide / eventbus / retrofit / realm / room / scichart
+> - junit / mockito / espresso
 > - oracle / tibero / mysql
-> - wiki / jira / git / jenkins
+> - wiki / jira / git
 
 <br/>
 <br/>
