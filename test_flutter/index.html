@@ -42,7 +42,24 @@
 </head>
 
 <body>
-  <a href="./test_flutter/index.html"><button>test_flutter</button></a>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function (engineInitializer) {
+        // [web] Make 'Noto Color Emoji' opt-in.         https://github.com/flutter/engine/pull/40990
+        // return engineInitializer.initializeEngine();
+        return engineInitializer.initializeEngine({
+          useColorEmoji: true,
+        });
+      }).then(function (appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
 </body>
 
 </html>
