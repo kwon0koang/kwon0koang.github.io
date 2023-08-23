@@ -35,7 +35,10 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "1869818031";
+    var serviceWorkerVersion = "3607973199";
+    function testJsFunc() {
+      alert('testJsFunc 호출 !');
+    }
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -50,10 +53,10 @@
           serviceWorkerVersion: serviceWorkerVersion,
         }
       }).then(function (engineInitializer) {
-        // [web] Make 'Noto Color Emoji' opt-in.         https://github.com/flutter/engine/pull/40990
         // return engineInitializer.initializeEngine();
         return engineInitializer.initializeEngine({
-          useColorEmoji: true,
+          // [web] Make 'Noto Color Emoji' opt-in.         https://github.com/flutter/engine/pull/40990
+          // useColorEmoji: true,
         });
       }).then(function (appRunner) {
         return appRunner.runApp();
