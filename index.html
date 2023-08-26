@@ -36,14 +36,14 @@
   <title>test_flutter</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- todo kyk preload canvaskit -->
+  <!-- preload canvaskit -->
   <script src="https://unpkg.com/canvaskit-wasm@0.38.0/bin/canvaskit.js"></script>
   <link rel="preload" href="https://unpkg.com/canvaskit-wasm@0.38.0/bin/canvaskit.wasm" as="fetch"
     crossOrigin="anonymous">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "3714315522";
+    var serviceWorkerVersion = "2939079091";
     function calledFromIndexHtml() {
       window.calledFromIndexHtml();
     }
@@ -85,6 +85,7 @@
           // [web] Make 'Noto Color Emoji' opt-in.         https://github.com/flutter/engine/pull/40990
           // useColorEmoji: true,
           // canvasKitBaseUrl: "./canvaskit/",
+          canvasKitBaseUrl: "notuse", // 위에서 canvaskit preload 함
           // canvasKitVariant: ,
         });
       }).then(function (appRunner) {
