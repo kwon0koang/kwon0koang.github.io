@@ -47,7 +47,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "2149411522";
+    var serviceWorkerVersion = "766637143";
     function calledFromIndexHtml() {
       window.calledFromIndexHtml();
     }
@@ -71,7 +71,12 @@
   </div>
 
   <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      console.log("DOMContentLoaded / " + new Date());
+    });
+
     window.addEventListener('load', function (ev) {
+      console.log("load / " + new Date());
       var loading = document.querySelector('#txt-loading');
       loading.textContent = "Loading entrypoint :)";
 
@@ -82,6 +87,7 @@
           serviceWorkerVersion: serviceWorkerVersion,
         }
       }).then(function (engineInitializer) {
+        console.log("Initializing engine / " + new Date());
         loading.textContent = "Initializing engine :)";
 
         // return engineInitializer.initializeEngine();
@@ -92,6 +98,7 @@
           // canvasKitVariant: ,
         });
       }).then(function (appRunner) {
+        console.log("Running app / " + new Date());
         loading.textContent = "Running app :)";
 
         return appRunner.runApp();
