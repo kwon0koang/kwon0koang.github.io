@@ -40,14 +40,14 @@
   <!-- <script src="https://unpkg.com/canvaskit-wasm@0.38.0/bin/canvaskit.js"></script>
   <link rel="preload" href="https://unpkg.com/canvaskit-wasm@0.38.0/bin/canvaskit.wasm" as="fetch"
     crossOrigin="anonymous"> -->
-  <script src="./canvaskit/chromium/canvaskit.js"></script>
-  <link rel="preload" href="./canvaskit/chromium/canvaskit.wasm" as="fetch" crossOrigin="anonymous">
+  <!-- <script src="./canvaskit/chromium/canvaskit.js"></script>
+  <link rel="preload" href="./canvaskit/chromium/canvaskit.wasm" as="fetch" crossOrigin="anonymous"> -->
 
   <!-- <script src="./main.dart.js?v=1004"></script> -->
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "1926882321";
+    var serviceWorkerVersion = "4124615888";
     function calledFromIndexHtml() {
       window.calledFromIndexHtml();
     }
@@ -71,12 +71,10 @@
   </div>
 
   <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-      console.log("DOMContentLoaded / " + new Date());
-    });
 
-    window.addEventListener('load', function (ev) {
-      console.log("load / " + new Date());
+    window.addEventListener('DOMContentLoaded', (event) => {
+      logTime('DOMContentLoaded');
+
       var loading = document.querySelector('#txt-loading');
       loading.textContent = "Loading entrypoint :)";
 
@@ -87,7 +85,7 @@
           serviceWorkerVersion: serviceWorkerVersion,
         }
       }).then(function (engineInitializer) {
-        console.log("Initializing engine / " + new Date());
+        logTime('Initializing engine');
         loading.textContent = "Initializing engine :)";
 
         // return engineInitializer.initializeEngine();
@@ -98,12 +96,24 @@
           // canvasKitVariant: ,
         });
       }).then(function (appRunner) {
-        console.log("Running app / " + new Date());
+        logTime('Running app');
         loading.textContent = "Running app :)";
 
         return appRunner.runApp();
       });
     });
+
+    window.addEventListener('load', function (ev) {
+      logTime('load');
+
+    });
+
+
+    function logTime(tag) {
+      const currentDate = new Date();
+      const milliseconds = currentDate.getMilliseconds();
+      console.log(tag + " / " + currentDate + " / ms : " + milliseconds);
+    }
   </script>
 </body>
 
