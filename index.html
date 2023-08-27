@@ -47,7 +47,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "4243809476";
+    var serviceWorkerVersion = "1309489093";
     function calledFromIndexHtml() {
       window.calledFromIndexHtml();
     }
@@ -73,10 +73,6 @@
   <script>
     window.addEventListener('DOMContentLoaded', (event) => {
       console.log("DOMContentLoaded / " + new Date());
-    });
-
-    window.addEventListener('load', function (ev) {
-      console.log("load / " + new Date());
       var loading = document.querySelector('#txt-loading');
       loading.textContent = "Loading entrypoint :)";
 
@@ -103,6 +99,36 @@
 
         return appRunner.runApp();
       });
+    });
+
+    window.addEventListener('load', function (ev) {
+      console.log("load / " + new Date());
+      // var loading = document.querySelector('#txt-loading');
+      // loading.textContent = "Loading entrypoint :)";
+
+      // // Download main.dart.js
+      // _flutter.loader.loadEntrypoint({
+      //   entrypointUrl: `main.dart.js?v=${serviceWorkerVersion}`,
+      //   serviceWorker: {
+      //     serviceWorkerVersion: serviceWorkerVersion,
+      //   }
+      // }).then(function (engineInitializer) {
+      //   console.log("Initializing engine / " + new Date());
+      //   loading.textContent = "Initializing engine :)";
+
+      //   // return engineInitializer.initializeEngine();
+      //   return engineInitializer.initializeEngine({
+      //     // [web] Make 'Noto Color Emoji' opt-in.         https://github.com/flutter/engine/pull/40990
+      //     // useColorEmoji: true,
+      //     canvasKitBaseUrl: "./canvaskit/",
+      //     // canvasKitVariant: ,
+      //   });
+      // }).then(function (appRunner) {
+      //   console.log("Running app / " + new Date());
+      //   loading.textContent = "Running app :)";
+
+      //   return appRunner.runApp();
+      // });
     });
   </script>
 </body>
